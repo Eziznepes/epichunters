@@ -88,11 +88,11 @@
     height: calc(100% - 98.83px);
     z-index: 100;
     background: rgba($color: #000000, $alpha: 0.4);
-    transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    -moz-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    -o-transform: translateX(100%);
+    transform: translateY(calc(-100% - 98.83px));
+    -webkit-transform: translateY(calc(-100% - 98.83px));
+    -moz-transform: translateY(calc(-100% - 98.83px));
+    -ms-transform: translateY(calc(-100% - 98.83px));
+    -o-transform: translateY(calc(-100% - 98.83px));
     @include transition;
     &.active {
       @include transformReset;
@@ -234,6 +234,11 @@
   .nav {
     top: 90px;
     height: calc(100% - 90px);
+    transform: translateY(calc(-100% - 90px));
+    -webkit-transform: translateY(calc(-100% - 90px));
+    -moz-transform: translateY(calc(-100% - 90px));
+    -ms-transform: translateY(calc(-100% - 90px));
+    -o-transform: translateY(calc(-100% - 90px));
     &__inner {
       &-link {
         font-size: 14px;
