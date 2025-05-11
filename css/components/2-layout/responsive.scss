@@ -1,0 +1,51 @@
+// 1180px
+@include xlg-xxlg {
+  h1 {
+    font-size: 80px;
+    line-height: 104px;
+  }
+  @include hero-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+  h1 {
+    font-size: 70px;
+    line-height: 94px;
+  }
+  .auto__container {
+    padding: 0 24px;
+  }
+  @include header-lg-xlg;
+  @include nav-lg-xlg;
+}
+// 840px
+@include md-lg {
+  h1 {
+    font-size: 54px;
+    line-height: 74px;
+  }
+  main {
+    padding-top: 98.83px;
+  }
+  @include header-md-lg;
+  @include nav-md-lg;
+  @include hero-md-lg;
+  @include modal-md-lg;
+}
+// 540px
+@include xsm-sm {
+  h1 {
+    font-size: 35px;
+    line-height: 44px;
+  }
+  main {
+    padding-top: 90px;
+  }
+  .auto__container {
+    padding: 0 15px;
+  }
+  @include header-xsm-sm;
+  @include nav-xsm-sm;
+  @include hero-xsm-sm;
+  @include modal-xsm-sm;
+}
